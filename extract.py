@@ -119,8 +119,8 @@ def extract_frames_with_subtitles(movie_path, subtitle_path, output_dir, start_t
     print(f"Total frames extracted: {frame_count // int(fps)}")
 
 def main():
-    movie_path = r'C:\Users\Syed Danish\Downloads\Pirates_of_the_Caribbean_The_Curse_of_the_Black_Pearl_2003_BluRay.mkv'
-    subtitle_path = r'C:\Users\Syed Danish\Downloads\pirates.of.the.caribbean.the.curse.of.the.black.pearl.(2003).eng.1cd.(9895232)\Pirates of the Caribbean The Curse of the Black Pearl (2003) Bluray-1080p.en.srt' 
+    movie_path = r'D:\Pirates_of_the_Caribbean_The_Curse_of_the_Black_Pearl_2003_BluRay.mkv'
+    subtitle_path = r'D:\Downloads\Pirates.of.the.Caribbean.Curse.of.the.Black.Pearl.2003.1080p.BrRip.x264.Deceit.YIFY.English.srt' 
     output_dir = 'frames'
     start_time_in_seconds = 53*60 + 27  # 53:27 in seconds -> 3207
     end_time_in_seconds = None
